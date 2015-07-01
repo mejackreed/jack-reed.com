@@ -28,7 +28,7 @@ Collection name | GeoNames title field | Geometry field
 
 ## Heatmap requests and returns
 
-For this blogpost, I only dealt with the Solr Heatmap Facet return using the 2D array of hit counts. The basic idea of the feature is that I can request a bounding area, and get return hit counts for items within that area. The bounding area parameter used 
+For this blogpost, I only dealt with the Solr Heatmap Facet return using the 2D array of hit counts. The basic idea of the feature is that I can request a bounding area, and get return hit counts for items within that area.
 
 ### An example request
 
