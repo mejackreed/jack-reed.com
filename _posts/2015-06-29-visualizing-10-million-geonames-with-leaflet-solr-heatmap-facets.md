@@ -93,7 +93,7 @@ The next step is to turn the 2D integer array into a visualization depicting hit
 
 Using this plugin, with the 10 million plus GeoNames corpus will yield a result like this:
 
-![GeoNames response]({{ stie.baseurl }}/assets/geonames_geojson_grid.jpg)
+![GeoNames response]({{ site.baseurl }}/assets/geonames_geojson_grid.jpg)
 The plugin does a really naive classification of density using color. Future work can implement something a bit more scientific.
 
 ![GeoNames grid animation](https://cloud.githubusercontent.com/assets/1656824/7525727/ca001f84-f4c0-11e4-9c07-9fb7083ab714.gif)
