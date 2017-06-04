@@ -112,7 +112,7 @@ Chrome has already started to remove functionality like Geolocation-API from <ab
 
 A great resource from Google on "Mythbusting HTTPS".
 
-[![Mythbusting HTTPS](http://img.youtube.com/vi/e6DUrH56g14/0.jpg)](http://www.youtube.com/watch?v=e6DUrH56g14)
+[![Mythbusting HTTPS](https://img.youtube.com/vi/e6DUrH56g14/0.jpg)](http://www.youtube.com/watch?v=e6DUrH56g14)
 
 [^fn-why-https]: [https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https)
 [^fn-why-always-https]: [http://mashable.com/2011/05/31/https-web-security](http://mashable.com/2011/05/31/https-web-security)
