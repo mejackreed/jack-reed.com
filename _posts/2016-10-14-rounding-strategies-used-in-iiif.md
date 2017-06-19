@@ -7,6 +7,10 @@ title: Rounding strategies used in IIIF
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
+<div class="message">
+2017-06-19 - Corrected IIIF API Implementation Notes strategy; floor → ceil. Thanks <a href="https://twitter.com/zimeon">@zimeon</a> 
+</div>
+
 ## TL:DR
 Make sure you are rounding the same way across your stack (I think).
 
@@ -60,7 +64,7 @@ A non-exhaustive comparison of IIIF rounding implementations:
 
 Software | Rounding method | Example
 -------- | --------------- | ---------------
-[Image API Implementation Notes](http://iiif.io/api/image/2.1/#a-implementation-notes) | floor | `The algorithm below is shown as Python code and assumes integer inputs and integer arithmetic throughout (ie. remainder discarded on division)`
+[Image API Implementation Notes](http://iiif.io/api/image/2.1/#a-implementation-notes) | ceil | see: `ws = (width - xr + s - 1) / s  # +s-1 in numerator to round up`
 [go-iiif](https://github.com/thisisaaronland/go-iiif) | floor | `/0,0,3897,4096/245,/0/default.jpg` returns `245 x 257`
 [riiif](https://github.com/curationexperts/riiif) | round | `0,0,4264,3248/333,/0/default.jpg` returns `333 x 254` [(see ImageMagick)](http://www.imagemagick.org/Usage/resize/)
 kakadu | ceil | [proof](https://gist.github.com/jpstroop/75370e438cdce8f34817c475e6eb5969) thanks [@jpstroop](https://twitter.com/jpstroop) |
